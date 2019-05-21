@@ -12,6 +12,7 @@ The script assumes that:
 * You have WinRAR installed on your system (you can specify an alternate installation location if needed)
 * You are using qBittorrent client
 * You are using a Windows system that has PowerShell installed
+* You are passing the script a file location that does not include any spaces
 
 ## Getting Started
 1. Download the script locally on the system
