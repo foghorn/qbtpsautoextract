@@ -53,8 +53,10 @@ Select "Run external program on torrent completion"
 Enter the following in the box, updating with your correct path:
 
 ```
-powershell C:\[PATH-TO-SCRIPT]\unrar.ps1 -srcpath "%F" 
+powershell C:\[PATH-TO-SCRIPT]\unrar.ps1 -srcpath '%F' 
 ```
+
+Note the use of a single quite around the %F flag, which indicates the output folder or location. Single quotes will allow the PowerShell script to better detect spaces and process them correctly within the file name or directory. If you use double quotes this may fail to work for files or directories with spaces.
 
 6. Enjoy!
 
