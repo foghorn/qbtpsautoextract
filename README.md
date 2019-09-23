@@ -4,6 +4,8 @@ PowerShell script to automatically extract contents of a RAR archive upon comple
 
 ## Overview
 
+As an IT security pro I listen to and watch a large number of conference sessions. A large number of these are distributed via torrent, meaning I need to download them individually and extract them to a central location before I could watch them conveniently. This script is designed to help automate that process.
+
 This project is intended to be used to automatically extract the RAR archived contents of a completed torrent file (containing perfectly legal and legitimate content ONLY) to a second or remote destination.
 
 In the event that the script does not find a valid RAR archive it can also copy files of a specified file extension. By default the file copies video files but can be edited to include others as well.
