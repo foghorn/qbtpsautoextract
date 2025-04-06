@@ -39,7 +39,7 @@ Right click and select "Run as Administrator"
 
 Enter the following command: 
 ```
-set-executionpolicy remotesigned
+set-executionpolicy Unrestricted
 ```
 
 4. Ensure that WinRAR is installed.
